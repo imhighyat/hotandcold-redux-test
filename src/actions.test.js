@@ -12,7 +12,7 @@ describe('restartGame', () => {
 		const rightAnswer = 25;
 		const action = restartGame(rightAnswer);
 		expect(action.type).toEqual(RESTART_GAME);
-        expect(action.correctAnswer).toEqual(rightAnswer);
+        	expect(action.correctAnswer).toEqual(rightAnswer);
 	});
 });
 
